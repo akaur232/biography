@@ -2,7 +2,8 @@ html{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: antiquewhite;
     animation-name: back;
-    animation-duration: 4s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
     animation-fill-mode: backwards;
 }
 h1{
