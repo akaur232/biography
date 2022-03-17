@@ -1,0 +1,79 @@
+html{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+    animation-name: back;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+}
+h1{
+    text-align: center;
+    color: darkred;
+    animation-name: highlight;
+    animation-duration: 4s;
+    background-color: rgb(186, 182, 196);
+    padding: 20px;
+}
+@keyframes highlight {
+    from {color: darkred;}
+    to {color:indigo;}
+}
+h1 img{
+    width: 80px;
+    height: 80px;
+}
+@keyframes back {
+    from {background-color: antiquewhite;}
+    to {background-color:rgb(191, 240, 126);}
+}
+span{
+    font-size: 70px;
+}
+
+nav li{
+    list-style-type: none;
+    padding-left: 100px;
+    display:contents;
+    margin: 10px;
+}
+nav{
+    text-align: center;
+}
+nav li a{
+    text-decoration: none;
+    color: crimson;
+    background-color: rgb(241, 235, 173);
+    padding: 10px;
+}
+main div{
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 100px;
+    background-color: #d8d3e9;
+    margin: 25px;
+    padding: 20px;
+}
+main div h2{
+    color: rgb(109, 23, 69);
+}
+.edu{
+    width: 80px;
+    height: 80px;
+}
+.myimg{
+    height: 500px;
+    width: 550px;
+    margin: 25px;
+    border: 5px solid black;
+    border-radius: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div a{
+    text-decoration:none;
+    color: brown;
+}
+div ul{
+    list-style: none;
+}
