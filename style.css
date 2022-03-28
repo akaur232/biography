@@ -44,8 +44,8 @@ nav{
 }
 nav li a{
     text-decoration: none;
-    color: crimson;
-    background-color: rgb(241, 235, 173);
+    color: white;
+    background-color:black;
     padding: 10px;
 }
 main div{
