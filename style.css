@@ -19,8 +19,10 @@ h1{
     to {color:indigo;}
 }
 h1 img{
-    width: 80px;
-    height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    height:auto;
+    width:auto;
 }
 @keyframes back {
     from {background-color: antiquewhite;}
@@ -59,12 +61,16 @@ main div h2{
     color: rgb(109, 23, 69);
 }
 .edu{
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    height:auto;
+    width:auto;
 }
 .myimg{
-    height: 500px;
-    width: 550px;
+    max-height: 500px;
+    max-width: 550px;
+    height:auto;
+    width:auto;
     margin: 25px;
     border: 2px solid black;
     border-radius: 1000px;
