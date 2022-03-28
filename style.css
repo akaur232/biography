@@ -62,9 +62,9 @@ main div h2{
 }
 .edu{
     max-width: 250px;
-    max-height: 250px;
-    min-height:200px;
-    min-width:225px;
+    max-height: 300px;
+    min-height:300px;
+    min-width:250px;
 }
 .myimg{
     max-height: 500px;
