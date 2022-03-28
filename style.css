@@ -61,10 +61,10 @@ main div h2{
     color: rgb(109, 23, 69);
 }
 .edu{
-    max-width:300px;
+    max-width:370px;
     max-height:250px;
     min-height:250px;
-    min-width:300px;
+    min-width:370px;
 }
 .myimg{
     max-height: 500px;
