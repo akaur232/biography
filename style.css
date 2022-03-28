@@ -21,8 +21,8 @@ h1{
 h1 img{
     max-width: 80px;
     max-height: 80px;
-    height:auto;
-    width:auto;
+    min-height:40px;
+    min-width:40px;
 }
 @keyframes back {
     from {background-color: antiquewhite;}
@@ -63,14 +63,14 @@ main div h2{
 .edu{
     max-width: 250px;
     max-height: 250px;
-    height:auto;
-    width:auto;
+    min-height:200px;
+    min-width:225px;
 }
 .myimg{
     max-height: 500px;
     max-width: 550px;
-    height:auto;
-    width:auto;
+    min-height:200px;
+    min-width:225px;
     margin: 25px;
     border: 2px solid black;
     border-radius: 1000px;
